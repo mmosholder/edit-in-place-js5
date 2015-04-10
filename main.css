@@ -1,0 +1,56 @@
+* {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 3px #333;
+}
+.mainHeader {
+	padding: 10px;
+	color: #fff;
+	background-color: #2692ff;
+	border-bottom: 1px solid #333;
+	text-shadow: 1px 1px 3px #333;
+}
+.mainContent {
+	padding: 10px;
+	overflow: hidden;
+}
+.photoCol {
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
+.profilePic {
+	width: 200px;
+	margin-right: 10px;
+	float: left;
+}
+.blockCol {
+	width: 78%;
+	display: inline-block;
+	float: left;
+}
+.textBlock {
+	margin: 10px 0;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	height: 115px;
+	padding: 0 5px;
+	background-color: #ddd;
+}
+
+.edit {
+	color: red;
+}
+.userInput {
+	width: 99%;
+	height: 105px;
+	position: absolute;
+	left:0;
+	top: 0;
+	resize: none;
+	display: none;
+}
