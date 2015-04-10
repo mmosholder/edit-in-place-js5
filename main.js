@@ -1,32 +1,32 @@
 $(document).on('ready', function() {
 	$('.bio').on('click', function () {
-		$('#bioEdit').css('display', 'inherit');
+		$('#bioEdit').addClass('editable');
 	});
 
 	$('#bioEdit').on('blur', function(){
 		var textValue = $('#bioEdit').val();
 		$('.bio').text(textValue);
-		$(this).css('display', 'none');
+		$(this).removeClass('editable');
 	});
 
 	$('.title').on('click', function () {
-		$('#titleEdit').css('display', 'inherit');
+		$('#titleEdit').addClass('editable');
 	});
 
 	$('#titleEdit').on('blur', function() {
 		var textValue = $('#titleEdit').val();
 		$('.title').text(textValue);
-		$(this).css('display', 'none');
+		$(this).removeClass('editable');
 	});
 
 
 	$('.skills').on('click', function () {
-		$('#skillsEdit').css('display', 'inherit');
+		$('#skillsEdit').addClass('editable');
 	});
 
 	$('#skillsEdit').on('blur', function() {
 		var textValue = $('#skillsEdit').val();
 		$('.skills').text(textValue);
-		$(this).css('display', 'none');
+		$(this).removeClass('editable');
 	});
 });
